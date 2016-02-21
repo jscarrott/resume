@@ -1,0 +1,168 @@
+{
+  "name": "John Scarrott",
+  "website": "http://www.jscarrottt.com",
+    "phone": "07733298950",
+    "email": "johnps@outlook.com",
+  
+    
+  "contact": {
+    "website": "http://www.jscarrottt.com",
+    "phone": "07733298950",
+    "email": "johnps@outlook.com"
+  },
+  
+  "meta": {
+    "format": "FRESH@0.6.0",
+    "version": "0.4.0"
+  },
+  
+  "info": {
+    "label": "Software Engineer",
+    "characterClass": "Programmer",
+    "brief": "**.Net Developer** with wide ranged experience from developing GUIs to modifying driver code, with some scripting thown in. A keen rock climber with a taste for adventure."
+  },
+
+  
+  "location": {
+    "address": "Ivybank",
+    "city": "Lee",
+    "region": "Devon",
+    "code": "EX348LN",
+    "country": "England"
+  },
+  
+  "social": [
+    {
+      "label": "Github",
+      "network": "GitHub",
+      "user": "JScarrott",
+      "url": "https://github.com/jscarrott"
+    }
+  ],
+  
+  "employment": {
+    "summary": "Recent graduate currently employed as a .Net Developer",
+    "history": [
+      {
+        "employer": "Helitune/Beran Instruments",
+        "url": "http://www.helitune.com/",
+        "position": "Software Engineer",
+        "summary": "Software Developer for [Helitune](www.helitune.com)/[Beran Instruments](http://www.beraninstruments.com/) working on customer facing GUIs, internal tools as well as device drivers and micro-controller code. I also assisted in moving from a traditional waterfall pathway to a more agile style one.",
+        "start": "2015-06",
+        "current": true,
+        "keywords": [
+          "Agile",
+          "TFS",
+          "Git",
+          "C#",
+          "C",
+          "Powershell",
+          "WPF",
+          "XML",
+          "Bitbucket",
+          "JIRA",
+          "Confluence"
+        ],
+        "highlights": [
+          "Co-writting a new piece of production test software for a new hardware product and seeing it used on the production line",
+          "Creating a soak tester for screening units at short notice",
+          "Helping transition from TFS to Git for version control",
+          "Helping to implement suspend to RAM on a Embedded device without OS support"
+        ]
+      }
+    ]
+  },
+  
+  "education": {
+    "summary": "Computing and Pscychology",
+    "level": "Degree",
+    "degree": "Bsc",
+    "history": [
+      {
+        "institution": "Open University",
+        "url": "http://open.ac.uk",
+        "start": "2011",
+        "end": "2015-12",
+        "grade": "2.1"
+      },
+      {
+        "institution": "Solihull Sixth Form College",
+        "grade": "AABB",
+        "start": "2008",
+        "suumary": "A-Levels",
+        "curriculum": [
+          "Mathematics",
+          "Physics",
+          "Further Mathematics",
+          "Chemistry"
+        ]
+      }
+    ]
+  },
+  
+  "skills": {
+    "sets": [
+      {
+        "name": ".Net Development",
+        "level": "advanced",
+        "skills": [
+          "C#",
+          "WPF",
+          "WinForms",
+          "VB.net",
+          "Powershell",
+          "F#",
+          "Visual Studio",
+          "MSBuild",
+          "Nuget"
+        ]
+      },
+      {
+        "name": "Version Control",
+        "level": "master",
+        "skills": [
+          "Git",
+          "TFS",
+          "Bitbucket",
+          "GitHub",
+          "SourceTree"
+        ]
+      },
+      {
+        "name": "JVM Development",
+        "level": "advanced",
+        "skills": [
+          "Java",
+          "Groovy",
+          "Gradle",
+          "IntelliJ IDEA",
+          "Maven",
+          "JavaFX"
+        ]
+      },
+            {
+        "name": "Native Development",
+        "level": "beginner",
+        "skills": [
+          "C",
+          "C++",
+          "Eclipse",
+          "Coapp"
+        ]
+      }
+  
+    ]
+  },
+
+  "interests": [
+    {
+      "name": "Rock Climbing",
+      "summary": "Keen rock climber that has helped teach many people to climb."
+    },
+    
+    {
+      "name": "Photography",
+      "summary": "Keen amateur photographer with a collection of film cameras."
+    }
+  ]
+}
