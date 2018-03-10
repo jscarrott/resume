@@ -1,6 +1,4 @@
 language: node_js
-node_js:
-- hackmyresume
 deploy:
   provider: s3
   access_key_id: AKIAIO3HZZJLSTCAHPMQ
@@ -11,3 +9,11 @@ deploy:
   acl: public_read
   on:
     repo: jscarrott/resume
+cache:
+  directories:
+    - "node_modules"
+
+install:
+    - npm install hackmyresume
+script:
+    - hackmyresume build .\resume.json TO output/MainPage.html
