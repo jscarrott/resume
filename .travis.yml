@@ -19,4 +19,4 @@ cache:
 install:
     - npm install hackmyresume
 script:
-    - hackmyresume build .\resume.json TO output/MainPage.html
+    - hackmyresume build resume.json TO output/MainPage.html
