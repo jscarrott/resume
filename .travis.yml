@@ -12,6 +12,7 @@ deploy:
   on:
     repo: jscarrott/resume
   skip_cleanup: true
+  region: "EU (Ireland)"
 cache:
   directories:
     - "node_modules"
