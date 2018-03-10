@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- hackmyresume
+deploy:
+  provider: s3
+  access_key_id: AKIAIO3HZZJLSTCAHPMQ
+  secret_access_key:
+    secure: I/iDoax77oomKpFE5gBo7CbtfSRjvwW6/VnHP/Cg3EXGac01fxJOjWxRo2vSji1+p46WqJuWVxg9NYoGwgto01qvArmHjm3pTKekdfo70x7oFyN9v6UK7OmVwFzq21OY9XD6HYL/0rnJvpM6H/rWuOnOEwvc2IFh7xZ6ljdhwNoz06u1QooKmAyhkLLZaQY1aJAR79yRTgKxKZ3K7OWHqfg6VertKAvtDq88TsLC3uI8fJPKYj2ljH1nChI16KEw66rkf4Hml30N2+n9dEm11O+k9TnQWPwYAL0K4howDqqG8VXw0AFE0pcEQNv10cnjPKGoGGYZU/4hGvHH5VWjixFcRoZXDlfXz4nXhbv4YogB1gSTSSRJh8WApK/qQMnFsJjGgmXFobF7CdyyTtIOYqLYiuWHt+khzk8NtSm85MBsGbJhrGyKyydjnxboCbJq0piRUvUzcjYvfadFl1F92APMfTBK+MKVUlufDEB8N/ZILHFmo8oJKkI7umv07WRVwp71YYgQsVXxJLcWuLwV9FAXnYozApLETfU+dMWKV7D7jc1ZB2m6l8HdZLnWaXFSGKRI1QsrMtD2WltM/OOjw3miXp5E9AU6Sx/1336SXmyCfASIo7Iy/BWMaBuptBKXMWYwXsUWKXHd0xiB91uKdLYKLNWhIB5tkvY8TgXJv9w=
+  bucket: jscarrott.com
+  local-dir: output
+  acl: public_read
+  on:
+    repo: jscarrott/resume
