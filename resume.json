@@ -1,208 +1,192 @@
 {
-  "name": "John Scarrott",
-  
-    
-  "contact": {
-    "website": "http://www.jscarrott.com",
-    "phone": "07733298950",
-    "email": "johnps@outlook.com"
-  },
-  
-  "meta": {
-    "format": "FRESH@0.6.0",
-    "version": "0.4.0"
-  },
-  
-  "info": {
-    "label": "Software Engineer",
-    "characterClass": "Programmer",
-    "brief": "**Versatile Developer** with wide ranged experience from developing GUIs to modifying driver code, with some scripting thown in. A keen rock climber with a taste for adventure.",
-    "website": "http://www.jscarrottt.com",
-    "phone": "07733298950",
-    "email": "johnps@outlook.com"
-  },
-
-  
-  "location": {
-    "address": "Ivybank",
-    "city": "Lee",
-    "region": "Devon",
-    "code": "EX348LN",
-    "country": "England"
-  },
-  
-  "social": [
-    {
-      "label": "Github",
-      "network": "GitHub",
-      "user": "JScarrott",
-      "url": "https://github.com/jscarrott"
+    "contact": {
+        "email": "johnps@outlook.com",
+        "phone": "07733298950",
+        "website": "http://www.jscarrott.com"
     },
-    {
-        "label": "LinkedIn",
-        "network": "LinkedIn",
-        "user": "JScarrott",
-        "url": "https://uk.linkedin.com/in/john-scarrott-624005100"
-    }
-  ],
-  
-  "employment": {
-    "summary": "Experienced Developer working on a wide range of embedded and desktop applications",
-    "history": [
-      {
-        "employer": "Helitune/Beran Instruments",
-        "url": "http://www.helitune.com/",
-        "position": "Software Engineer",
-        "summary": "Software Developer for [Helitune](http://www.helitune.com)/[Beran Instruments](http://www.beraninstruments.com/) working on customer facing GUIs, internal tools as well as device drivers and micro-controller code. I also assisted in moving from a traditional waterfall pathway to a more agile style one.",
-        "start": "2015-06",
-        "current": true,
-        "keywords": [
-          "Agile",
-          "TFS",
-          "Git",
-          "C#",
-          "C",
-          "Powershell",
-          "WPF",
-          "XML",
-          "Bitbucket",
-          "JIRA",
-          "Confluence"
+    "education": {
+        "degree": "Bsc",
+        "history": [
+            {
+                "end": "2015-12",
+                "grade": "2.1",
+                "institution": "Open University",
+                "start": "2011",
+                "url": "http://open.ac.uk"
+            }
         ],
-        "highlights": [
-          "Co-writing a new piece of production test software for a new hardware product and seeing it used on the production line",
-          "Creating a soak tester for screening production units at short notice",
-          "Helping transition from TFS to Git for version control",
-          "Helping to implement suspend to RAM on a Embedded device without OS support"
-        ]
-      }
-    ]
-  },
-  "projects": [
-	  {
-		"title": "Rust embedded Hal for nRF52840",
-		"category": "FOSS",
-		"role": "author",
-		"start": "2018-01",
-		"summary": "Implementation of embedded-hal crate to allow for embedded development on the nordic nRF52840 dev board"
-
-	  },
-
-	  {
-		"title": "Peripheral access crate for nRF52850",
-		"category":"FOSS",
-		"start": "2018-01",
-		"role": "author/maintainer",
-		"summary": "Create generated from SVD file used to allow pure Rust peripheral access for the nRF52840"
-	  },
-	  {
-	"title":"This Resume",
-	"start":"2017",
-	"summary":"This resume is based on a json file stored in a git repository. It is built using travis CI using hack my resume and deployed to an S3 instance. It is then hosted as a static website at jscarrott.com"
-    }
-
-	],
-  
-  
-  "education": {
-    "summary": "Computing and Pscychology",
-    "level": "Degree",
-    "degree": "Bsc",
-    "history": [
-      {
-        "institution": "Open University",
-        "url": "http://open.ac.uk",
-        "start": "2011",
-        "end": "2015-12",
-        "grade": "2.1"
-      }
-    ]
-  },
-  
-  "skills": {
-    "sets": [
-      {
-        "name": "Native Development",
-        "level": "advanced",
-        "skills": [
-          "C",
-          "C++",
-	  "Rust",
-          "Eclipse",
-          "Coapp"
-        ]
-      },
-      {
-        "name": ".Net Development",
-        "level": "advanced",
-        "skills": [
-          "C#",
-          "WPF",
-          "WinForms",
-          "VB.net",
-          "Powershell",
-          "F#",
-          "Visual Studio",
-          "MSBuild",
-          "Nuget"
-        ]
-      },
-      {
-        "name": "Version Control",
-        "level": "master",
-        "skills": [
-          "Git",
-          "TFS",
-          "Bitbucket",
-          "GitHub",
-          "SourceTree"
-        ]
-      },
-      {
-        "name": "JVM Development",
-        "level": "advanced",
-        "skills": [
-          "Java",
-          "Groovy",
-          "Gradle",
-          "IntelliJ IDEA",
-          "Maven",
-          "JavaFX"
-        ]
-      }, 
-      {
-        "name": "Web Development",
-        "level": "beginner",
-        "skills": [
-          "JavaScript",
-          "TypeScript",
-          "HTML",
-          "CSS"
-        ]
-      },
-      {
-        "name": "Agile",
-        "level": "intermediate",
-        "skills": [
-          "SCRUM",
-          "Estimation",
-          "JIRA"
-        ]
-      }
-  
-    ]
-  },
-
-  "interests": [
-    {
-      "name": "Rock Climbing",
-      "summary": "Keen rock climber that has helped teach many people to climb."
+        "level": "Degree",
+        "summary": "Computing and Pscychology"
     },
-    
-    {
-      "name": "Photography",
-      "summary": "Keen amateur photographer with a collection of film cameras."
-    }
-
-  ]
+    "employment": {
+        "history": [
+            {
+                "current": true,
+                "employer": "Helitune/Beran Instruments",
+                "highlights": [
+                    "Co-writing a new piece of production test software for a new hardware product and seeing it used on the production line",
+                    "Creating a soak tester for screening production units at short notice",
+                    "Helping transition from TFS to Git for version control",
+                    "Helping to implement suspend to RAM on a Embedded device without OS support"
+                ],
+                "keywords": [
+                    "Agile",
+                    "TFS",
+                    "Git",
+                    "C#",
+                    "C",
+                    "Powershell",
+                    "WPF",
+                    "XML",
+                    "Bitbucket",
+                    "JIRA",
+                    "Confluence"
+                ],
+                "position": "Software Engineer",
+                "start": "2015-06",
+                "summary": "Software Developer for [Helitune](http://www.helitune.com)/[Beran Instruments](http://www.beraninstruments.com/) working on customer facing GUIs, internal tools as well as device drivers and micro-controller code. I also assisted in moving from a traditional waterfall pathway to a more agile style one.",
+                "url": "http://www.helitune.com/"
+            }
+        ],
+        "summary": "Experienced Developer working on a wide range of embedded and desktop applications"
+    },
+    "info": {
+        "brief": "**Versatile Developer** with wide ranged experience from developing GUIs to modifying driver code, with some scripting thown in. A keen rock climber with a taste for adventure.",
+        "characterClass": "Programmer",
+        "email": "johnps@outlook.com",
+        "label": "Software Engineer",
+        "phone": "07733298950",
+        "website": "http://www.jscarrottt.com"
+    },
+    "interests": [
+        {
+            "name": "Rock Climbing",
+            "summary": "Keen rock climber that has helped teach many people to climb."
+        },
+        {
+            "name": "Photography",
+            "summary": "Keen amateur photographer with a collection of film cameras."
+        }
+    ],
+    "location": {
+        "address": "Ivybank",
+        "city": "Lee",
+        "code": "EX348LN",
+        "country": "England",
+        "region": "Devon"
+    },
+    "meta": {
+        "format": "FRESH@0.6.0",
+        "version": "0.4.0"
+    },
+    "name": "John Scarrott",
+    "projects": [
+        {
+            "category": "FOSS",
+            "role": "author",
+            "start": "2018-01",
+            "summary": "Implementation of embedded-hal crate to allow for embedded development on the nordic nRF52840 dev board",
+            "title": "Rust embedded Hal for nRF52840"
+        },
+        {
+            "category": "FOSS",
+            "repo": "https://github.com/jscarrott/nrf52840",
+            "role": "author/maintainer",
+            "start": "2018-01",
+            "summary": "Create generated from SVD file used to allow pure Rust peripheral access for the nRF52840",
+            "title": "Peripheral access crate for nRF52850"
+        },
+        {
+            "repo": "https://github.com/jscarrott/resume",
+            "start": "2017",
+            "summary": "This resume is based on a json file stored in a git repository. It is built using travis CI using hack my resume and deployed to an S3 instance. It is then hosted as a static website at jscarrott.com",
+            "title": "This Resume"
+        }
+    ],
+    "skills": {
+        "sets": [
+            {
+                "level": "advanced",
+                "name": "Native Development",
+                "skills": [
+                    "C",
+                    "C++",
+                    "Rust",
+                    "Eclipse",
+                    "Coapp"
+                ]
+            },
+            {
+                "level": "advanced",
+                "name": ".Net Development",
+                "skills": [
+                    "C#",
+                    "WPF",
+                    "WinForms",
+                    "VB.net",
+                    "Powershell",
+                    "F#",
+                    "Visual Studio",
+                    "MSBuild",
+                    "Nuget"
+                ]
+            },
+            {
+                "level": "master",
+                "name": "Version Control",
+                "skills": [
+                    "Git",
+                    "TFS",
+                    "Bitbucket",
+                    "GitHub",
+                    "SourceTree"
+                ]
+            },
+            {
+                "level": "advanced",
+                "name": "JVM Development",
+                "skills": [
+                    "Java",
+                    "Groovy",
+                    "Gradle",
+                    "IntelliJ IDEA",
+                    "Maven",
+                    "JavaFX"
+                ]
+            },
+            {
+                "level": "beginner",
+                "name": "Web Development",
+                "skills": [
+                    "JavaScript",
+                    "TypeScript",
+                    "HTML",
+                    "CSS"
+                ]
+            },
+            {
+                "level": "intermediate",
+                "name": "Agile",
+                "skills": [
+                    "SCRUM",
+                    "Estimation",
+                    "JIRA"
+                ]
+            }
+        ]
+    },
+    "social": [
+        {
+            "label": "Github",
+            "network": "GitHub",
+            "url": "https://github.com/jscarrott",
+            "user": "JScarrott"
+        },
+        {
+            "label": "LinkedIn",
+            "network": "LinkedIn",
+            "url": "https://uk.linkedin.com/in/john-scarrott-624005100",
+            "user": "JScarrott"
+        }
+    ]
 }
