@@ -44,7 +44,7 @@
                 ],
                 "position": "Software Engineer",
                 "start": "2015-06",
-                "summary": "Software Developer for [Helitune](http://www.helitune.com)/[Beran Instruments](http://www.beraninstruments.com/) working on customer facing GUIs, internal tools as well as device drivers and micro-controller code. I also assisted in moving from a traditional waterfall pathway to a more agile style one.",
+                "summary": "Software Developer for [Helitune](http://www.helitune.com)/[Beran Instruments](http://www.beraninstruments.com/) working on several products making use of custom hardware to do embedded signal processing and storage. As well as working on the desktop applicaiton to assist in post-processing of the data. I also assisted in moving from a traditional waterfall pathway to a more agile style one.",
                 "url": "http://www.helitune.com/"
             }
         ],
@@ -93,7 +93,7 @@
             "repo": "https://github.com/jscarrott/nrf52840",
             "role": "author/maintainer",
             "start": "2018-01",
-            "summary": "Create generated from SVD file used to allow pure Rust peripheral access for the nRF52840",
+            "summary": "Crate generated from SVD file used to allow pure Rust peripheral access for the nRF52840",
             "title": "Peripheral access crate for nRF52850"
         },
         {
