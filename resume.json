@@ -83,16 +83,24 @@
 		"title": "Rust embedded Hal for nRF52840",
 		"category": "FOSS",
 		"role": "author",
-		"description": "Implementation of embedded-hal crate to allow for embedded development on the nordic nRF52840 dev board"
+		"start": "2018-01",
+		"summary": "Implementation of embedded-hal crate to allow for embedded development on the nordic nRF52840 dev board"
 
 	  },
 
 	  {
 		"title": "Peripheral access crate for nRF52850",
 		"category":"FOSS",
+		"start": "2018-01",
 		"role": "author/maintainer",
-		"Description": "Create generated from SVD file used to allow pure Rust peripheral access for the nRF52840"
-	  }
+		"summary": "Create generated from SVD file used to allow pure Rust peripheral access for the nRF52840"
+	  },
+	  {
+	"title":"This Resume",
+	"start":"2017",
+	"summary":"This resume is based on a json file stored in a git repository. It is built using travis CI using hack my resume and deployed to an S3 instance. It is then hosted as a static website at jscarrott.com"
+    }
+
 	],
   
   
@@ -194,11 +202,7 @@
     {
       "name": "Photography",
       "summary": "Keen amateur photographer with a collection of film cameras."
-    },
-
-    {
-	"name":"This Resume",
-	"summary":"This resume is based on a json file stored in a git repository. It is built using travis CI using hack my resume and deployed to an S3 instance. It is then hosted as a static website at jscarrott.com"
     }
+
   ]
 }
