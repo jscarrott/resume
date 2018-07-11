@@ -144,6 +144,17 @@
                     "SourceTree"
                 ]
             },
+             {
+                "level": "advanced",
+                "name": "OS Knowledge",
+                "skills": [
+                    "Windows",
+		    "Linux",
+		    "Bash",
+		    "Zsh",
+		    "WSL"
+                ]
+            },
             {
                 "level": "advanced",
                 "name": "JVM Development",
