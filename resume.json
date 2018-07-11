@@ -24,6 +24,8 @@
                 "current": true,
                 "employer": "Helitune/Beran Instruments",
                 "highlights": [
+			"Implementing new a signal processing framework for new best in class vibration analysis systems",
+			"Retro-fitting unit testing into legacy embedded systems",
                     "Co-writing a new piece of production test software for a new hardware product and seeing it used on the production line",
                     "Creating a soak tester for screening production units at short notice",
                     "Helping transition from TFS to Git for version control",
